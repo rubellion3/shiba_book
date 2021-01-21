@@ -14,7 +14,7 @@
           <td class="text-lg">
             {{ cart.title }}
           </td>
-          <td class="text-lg">{{ 'x' + cart.qul }}</td>
+          <td class="text-lg">{{ "x" + cart.qul }}</td>
           <td class="text-lg">{{ cart.price * cart.qul }}</td>
         </tr>
         <tr>
@@ -30,7 +30,7 @@
       </tbody>
     </table>
     <div class="container text-center text-2xl">
-      {{ 'Changes is ' + changes }}
+      {{ "Changes is " + changes }}
     </div>
   </div>
 </template>
@@ -41,9 +41,9 @@ export default {
     changes: { type: Number, default: 0 },
     totalSum: { type: Number, default: 0 },
     discount: { type: Number, default: 0 },
-    carts: { type: Array, default: null },
-  },
-}
+    carts: { type: Array, default: null }
+  }
+};
 </script>
 
 <style></style>
