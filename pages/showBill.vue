@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import CreateBill from '~/components/createBill'
+import CreateBill from '../components/createBill'
 export default {
   components: { CreateBill },
   computed: {
