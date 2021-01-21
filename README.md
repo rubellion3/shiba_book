@@ -1,5 +1,5 @@
 # shiba
-
+  After build setp you can add the book and customer money then proceed the payment, it will show the successful payment and changes.
 ## Build Setup
 
 ```bash
